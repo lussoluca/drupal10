@@ -1,4 +1,4 @@
-name: drupal10
+name: drupal
 type: drupal9
 docroot: "web"
 php_version: "8.1"

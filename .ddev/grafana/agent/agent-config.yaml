@@ -5,7 +5,7 @@ traces:
         - endpoint: tempo-eu-west-0.grafana.net:443
           basic_auth:
             username: 175079
-            password: eyJrIjoiYzhjZDBjOGFmY2VhMTUzNWFmOGE0NzIwZjE5ZDQ3MzYwNjFhMjgzMyIsIm4iOiJvMTF5IiwiaWQiOjYxNDg3MH0=
+            password: xxx
       receivers:
         otlp:
           protocols:
@@ -32,4 +32,4 @@ logs:
         - url: http://logs-prod-eu-west-0.grafana.net/loki/api/v1/push
           basic_auth:
             username: 178566
-            password: eyJrIjoiZWQ0MjJjOTE4NjhhNzA0MGU3NTg5MTNlMWQ1ODQ0NjYzMDExM2Q4YSIsIm4iOiJsb2tpIiwiaWQiOjYxNDg3MH0=
+            password: yyy
