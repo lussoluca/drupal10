@@ -16,11 +16,13 @@
     ],
     "require": {
         "composer/installers": "^1.9",
-        "drupal/core-composer-scaffold": "10.0.0-alpha2",
-        "drupal/core-project-message": "10.0.0-alpha2",
-        "drupal/core-recommended": "10.0.0-alpha2",
+        "drupal/core-composer-scaffold": "10.0.0-alpha5",
+        "drupal/core-project-message": "10.0.0-alpha5",
+        "drupal/core-recommended": "10.0.0-alpha5",
         "drush/drush": "^11.0",
         "monolog/monolog": "^2.3",
+        "nette/php-generator": "^4.0",
+        "nikic/php-parser": "^4.14",
         "open-telemetry/opentelemetry": "^0.0.6",
         "php-http/guzzle7-adapter": "^1.0",
         "symfony/stopwatch": "^6.0"
