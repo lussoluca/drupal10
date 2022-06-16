@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5fe20ef732a457e951c9b7fb03a968f7",
+    "content-hash": "36427e62a1d7b5fa2b2a6b3cee59f847",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1538,6 +1538,66 @@
                 "source": "https://github.com/drupal/core-recommended/tree/10.0.0-alpha5"
             },
             "time": "2022-06-08T21:05:15+00:00"
+        },
+        {
+            "name": "drupal/monolog",
+            "version": "dev-2.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/monolog.git",
+                "reference": "f94196d6b5c2e89faa6b7fdb2c147513b1a4b205"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9 || ^10",
+                "monolog/monolog": "^2.0.0",
+                "php": "^7.4|^8"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "2.x-dev",
+                    "datestamp": "1647850449",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Drupal\\Monolog": "src/"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Pliakas",
+                    "homepage": "https://www.drupal.org/user/1011436",
+                    "email": "opensource@chrispliakas.com",
+                    "role": "Project Lead"
+                },
+                {
+                    "name": "See contributors",
+                    "homepage": "http://drupal.org/node/1937716/committers",
+                    "role": "Developer"
+                },
+                {
+                    "name": "lussoluca",
+                    "homepage": "https://www.drupal.org/user/138068"
+                }
+            ],
+            "description": "A Framework for integrating with the Monolog library.",
+            "homepage": "http://drupal.org/project/monolog",
+            "support": {
+                "source": "https://git.drupalcode.org/project/monolog",
+                "issues": "http://drupal.org/project/issues/monolog"
+            }
         },
         {
             "name": "drush/drush",
